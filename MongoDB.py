@@ -12,3 +12,23 @@ d = {
 db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(d)
+
+d = {
+    "name":"Phani",
+    "email":"phanisriramk@gmail.com",
+    "surname":"Kolavennu"
+}
+
+db1 = client['mongotest']
+coll = db1['test']
+coll.insert_one(d)
+
+d = {
+    "name":"Phani",
+    "email":"phanisriramk@gmail.com",
+    "surname":"Kolavennu"
+}
+
+db1 = client['mongotest']
+coll = db1['test']
+coll.insert_one(d)
